@@ -1,4 +1,12 @@
-# ParkMap
+# TaipeiParkingMap
+
+簡介
+------------------------------------
+* 這個專案的目的是去處理台北市Open Data-「臺北市路邊停車格位」資料。
+** 資料來源: http://data.taipei.gov.tw/opendata/apply/NewDataContent?oid=DC46123A-8142-41EC-AC2F-E608B59DFEFF
+** 資料格式: shapefile (ref), 其中位置資訊為TWD67二分帶格式。
+
+
 
 如何打開一個utf-8編碼的csv檔案
 ------------------------------------
