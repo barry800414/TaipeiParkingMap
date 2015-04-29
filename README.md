@@ -18,7 +18,8 @@
 ------------------------------------
 * [pyshp](https://code.google.com/p/pyshp/) - the package for reading shapefile
 * [pyproj](https://pypi.python.org/pypi/pyproj) - the python wrapper for [proj](https://trac.osgeo.org/proj/), which is a powerful package for GIS system 
-* TWD67-TWD97-WGS84座標轉換(http://gis.thl.ncku.edu.tw/coordtrans/coordtrans.aspx) - 成大水工所網頁
+* [TWD67-TWD97-WGS84座標轉換](http://gis.thl.ncku.edu.tw/coordtrans/coordtrans.aspx) - 成大水工所網頁
+* [TWD97-WGS84 轉換using pyproj](http://blog.changyy.org/2012/11/twd67-twd97-wgs84.html)
 
 如何打開一個utf-8編碼的csv檔案
 ------------------------------------
