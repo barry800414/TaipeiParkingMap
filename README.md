@@ -9,10 +9,10 @@
 
 * 處理完之資料: [點此下載](http://140.112.187.33/~r02922010/park01.csv) 
 
-遇到的問題
+最低需求 (Prerequisites)
 ------------------------------------
-1. record讀取的時候，編碼大部分為big5，因此必須修改shapefile.py，它預設為utf-8編碼。
-2. record也有其他可能之編碼，目前嘗試utf-8, big5, cp950, cp932，尚有無法解碼之文字(共10幾筆)，將其捨棄。
+* Python2 & Python3
+* pyproj & proj
 
 相關資源
 ------------------------------------
@@ -20,6 +20,12 @@
 * [pyproj](https://pypi.python.org/pypi/pyproj) - the python wrapper for [proj](https://trac.osgeo.org/proj/), which is a powerful package for GIS system 
 * [TWD67-TWD97-WGS84座標轉換](http://gis.thl.ncku.edu.tw/coordtrans/coordtrans.aspx) - 成大水工所網頁
 * [TWD97-WGS84 轉換using pyproj](http://blog.changyy.org/2012/11/twd67-twd97-wgs84.html)
+
+
+遇到的問題
+------------------------------------
+1. record讀取的時候，編碼大部分為big5，因此必須修改shapefile.py，它預設為utf-8編碼。
+2. record也有其他可能之編碼，目前嘗試utf-8, big5, cp950, cp932，尚有無法解碼之文字(共10幾筆)，將其捨棄。
 
 如何打開一個utf-8編碼的csv檔案
 ------------------------------------
