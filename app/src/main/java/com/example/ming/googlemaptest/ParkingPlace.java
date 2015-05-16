@@ -46,6 +46,12 @@ public class ParkingPlace {
         return pp;
     }
 
+    public String toString(){
+        String outStr = "";
+        
+    }
+
+
     public int getId() {
         return id;
     }
