@@ -1,4 +1,4 @@
-package com.example.ming.googlemaptest;
+package com.socialgood.taipei.taipeidisablerparkingmap;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

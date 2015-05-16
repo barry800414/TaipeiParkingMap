@@ -1,4 +1,4 @@
-package com.example.ming.googlemaptest;
+package com.socialgood.taipei.taipeidisablerparkingmap;
 
 import android.util.Log;
 
@@ -44,11 +44,6 @@ public class ParkingPlace {
             }
         }
         return pp;
-    }
-
-    public String toString(){
-        String outStr = "";
-        
     }
 
 
