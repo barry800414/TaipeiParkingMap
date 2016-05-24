@@ -1,7 +1,6 @@
 # TaipeiParkingMap 台北市路邊停車格位資料處理
 
-簡介
-------------------------------------
+## 簡介
 * 這個專案的目的是去處理台北市Open Data-「[臺北市路邊停車格位](http://data.taipei.gov.tw/opendata/apply/NewDataContent?oid=DC46123A-8142-41EC-AC2F-E608B59DFEFF)」資料。
 * 資料格式: [shapefile](http://zh.wikipedia.org/zh-tw/Shapefile)，可用[pyshp](https://code.google.com/p/pyshp/)讀取, 其中位置資訊應該為[TWD67二分帶](http://www.sunriver.com.tw/grid_tm2.htm)格式。
 * 本專案將原始資料中的Record資訊(即停車格欄位資訊)擷取出來，再將Shape資訊(包含停車格之多邊形(points)及包覆之矩形(bbox)位置資訊等)中bbox資訊(TWD67二分帶格式)擷取出來並轉換為[WGS84](http://zh.wikipedia.org/wiki/WGS84)座標((即我們一般理解的經緯度資訊，可用於google map)。
@@ -9,13 +8,11 @@
 
 * 處理完之資料: [點此下載](http://140.112.187.33/~r02922010/park01.csv) 
 
-最低需求 (Prerequisites)
-------------------------------------
+## 最低需求 (Prerequisites)
 * Python3
 * pyproj & proj  (請使用pip3安裝)
 
-執行方式
-------------------------------------
+## 執行方式
 ### Get records from shapefile
         python3 getRecord.py shapeFile(.shp) out_Record_CSV
 
