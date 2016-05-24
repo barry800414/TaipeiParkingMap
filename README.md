@@ -6,7 +6,7 @@
 * 本專案將原始資料中的Record資訊(即停車格欄位資訊)擷取出來，再將Shape資訊(包含停車格之多邊形(points)及包覆之矩形(bbox)位置資訊等)中bbox資訊(TWD67二分帶格式)擷取出來並轉換為[WGS84](http://zh.wikipedia.org/wiki/WGS84)座標(即我們一般理解的經緯度資訊，可用於google map)。
 * 轉換方式為: TWD67二分帶格式 ----[四參數轉換](http://gis.thl.ncku.edu.tw/coordtrans/coordtrans.aspx)---> TWD97二分帶格式 ---[pyproj](https://pypi.python.org/pypi/pyproj)---> WGS84格式
 
-* 處理完之資料: [點此下載](http://140.112.187.33/~r02922010/park01.csv) 
+* 處理完之資料: [點此下載](http://140.112.187.33/~r02922010/park01.csv)  2016/5/25更新
 
 ## 最低需求 (Prerequisites)
 * Python3
