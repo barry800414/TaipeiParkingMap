@@ -11,8 +11,20 @@
 
 最低需求 (Prerequisites)
 ------------------------------------
-* Python2 & Python3
-* pyproj & proj
+* Python3
+* pyproj & proj  (請使用pip3安裝)
+
+執行方式
+------------------------------------
+### Get records from shapefile
+        python3 getRecord.py shapeFile(.shp) out_Record_CSV
+
+### Get positions from shapefile and convert to WGS84 format
+        python3 getPosition.py shapeFile(.shp) out_Position_CSV(WGS84)
+
+### Merge record data and position data
+        python3 mergeData.py record_CSV position_CSV out_Merge_CSV
+
 
 相關資源
 ------------------------------------

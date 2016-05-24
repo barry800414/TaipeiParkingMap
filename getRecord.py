@@ -4,7 +4,7 @@ import sys
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print('Usage:', sys.argv[0], 'dataPath record_CSV', file=sys.stderr)
+        print('Usage:', sys.argv[0], 'shapeFile(.shp) Out_Record_CSV', file=sys.stderr)
         exit(-1)
 
     dataPath = sys.argv[1]

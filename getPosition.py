@@ -40,7 +40,7 @@ TWD97ToWGS84(x97, y97)
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print('Usage:', sys.argv[0], 'dataPath WGS84_CSV', file=sys.stderr)
+        print('Usage:', sys.argv[0], 'shapeFile(.shp) out_Position_CSV(WGS84)', file=sys.stderr)
         exit(-1)
     dataPath = sys.argv[1]
     outCSV = sys.argv[2]
