@@ -13,14 +13,14 @@
 * pyproj & proj  (請使用pip3安裝，安裝指令如 pip3 install -U pyproj)
 
 ## 執行方式
-#### 從shape file(副檔名為.shp)中讀取Record資訊(停車格欄位資訊)
-        python3 getRecord.py shapeFile(.shp) out_Record_CSV
+1. 從shape file(副檔名為.shp)中讀取Record資訊(停車格欄位資訊)  
+        <code>python3 getRecord.py shapeFile(.shp) out_Record_CSV</code>
 
-#### 從shape file 取出停車格經緯度資訊，並轉為 WGS84 格式
-        python3 getPosition.py shapeFile(.shp) out_Position_CSV(WGS84)
+2. 從shape file 取出停車格經緯度資訊，並轉為 WGS84 格式  
+        <code>python3 getPosition.py shapeFile(.shp) out_Position_CSV(WGS84)</code>
 
-#### 將 Record資訊與經緯度資訊合併成一個csv檔
-        python3 mergeData.py record_CSV position_CSV out_Merge_CSV
+3. 將 Record資訊與經緯度資訊合併成一個csv檔  
+        <code>python3 mergeData.py record_CSV position_CSV out_Merge_CSV</code>
 
 
 ## 相關資源
